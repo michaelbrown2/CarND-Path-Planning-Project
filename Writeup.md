@@ -3,7 +3,7 @@
 [image1]: ./images/NoIncident.png "EKF"
 
 
-My Path Planning Project began with much of the code that was covered in the Getting Started video just to get the car moving. From there, I went through the process of setting up a cost system for lane changing, analyzing the other vehicles on the road, and ensuring no accidents would / should occur. My control system has successfully run for well over 30 minutes with no accident.  I uploaded a youtube video at https://youtu.be/S-_gFasKYHQ that shows a 10 minute section. Also, below you will see a screenshot of the ~30 minute mark.
+My Path Planning Project began with much of the code that was covered in the Getting Started video just to get the car moving. From there, I went through the process of setting up a cost system for lane changing, analyzing the other vehicles on the road, and ensuring no accidents would / should occur. My control system has successfully run for well over 30 minutes with no accident.  I uploaded a video to [YouTube](https://youtu.be/S-_gFasKYHQ) that shows a 10 minute section. Also, below you will see a screenshot of the ~30 minute mark.
 ![alt text][image1]
 
 The first hurdle to overcome was controlling speed when approaching a vehicle in front of ours.  I have three outcomes when it comes to this. Initially if there are no vehicles in front of us for at least 40 meters, the car will drive at the speed limit. Between 20 and 40 meters, we match the speed of the car in front of us, and if a car cuts us off, we will decrease our speed to 75% of that cars speed until we get our 20 meter cushion again.
