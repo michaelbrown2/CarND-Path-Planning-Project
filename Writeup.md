@@ -1,4 +1,4 @@
-#CarND Path Planning Project
+# CarND Path Planning Project
 
 [image1]: ./images/NoIncident.png "EKF"
 
